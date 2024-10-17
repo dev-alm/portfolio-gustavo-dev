@@ -1,0 +1,20 @@
+/*Tema*/
+@import url(./CSS/tema/tema.css);
+
+/*Reset*/
+@import url(./CSS/reset/reset.css);
+
+/*Utilidades*/
+@import url(./CSS/utilidades/tamanho-padrao.css);
+
+/*Fontes*/
+@import url(./fontes/fontes.css);
+
+/* Header */
+@import url(./CSS/header/header.css);
+
+/*Introdução*/
+@import url(./CSS/introducao/introducao.css);
+
+
+

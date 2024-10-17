@@ -1,0 +1,29 @@
+.introducao {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.introducao-itens {
+  display: flex;
+  width: 1050px;
+  height: 92px;
+  margin: 0 auto;
+  gap: 40px;
+  border: solid 1px var(--borda);
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.introducao-itens h1 {
+  position: relative;
+  top: 5px;
+  letter-spacing: 3px;
+}
+
+.introducao-itens p {
+  color: var(--texto3);
+  max-width:65ch ;
+  line-height: 27px;
+  font-size: 1,125rem;
+}
