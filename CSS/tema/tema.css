@@ -1,5 +1,5 @@
 :root {
-  --cor-primaria: rgb(0, 255, 255);
+  --cor-primaria: rgb(31, 153, 62);
   --cor-primaria-escura: rgb(0, 92, 95);
   --fundo-1: #ffffff;
   --fundo-2: #000000;
@@ -18,7 +18,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --cor-primaria: rgb(0, 255, 255);
+    --cor-primaria: rgb(0, 158, 158);
     --cor-primaria-escura: rgb(0, 92, 95);
     --fundo-1: #111111;
     --fundo-2: rgba(0, 225, 255, 0.089);
