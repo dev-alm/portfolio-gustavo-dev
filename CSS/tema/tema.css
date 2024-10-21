@@ -1,5 +1,5 @@
 :root {
-  --cor-primaria: rgb(31, 153, 62);
+  --cor-primaria: #D3E97A;
   --cor-primaria-escura: rgb(0, 92, 95);
   --fundo-1: #ffffff;
   --fundo-2: #000000;
@@ -7,6 +7,7 @@
   --texto2: #000000;
   --texto3: #C7C7C7;
   --borda: #D3E97A;
+  --fundo-item: #1b1b1b;
   --cor-subtitulo: rgba(0, 0, 0, 0.2);
   --icone: #ffffff;
   --degrade: radial-gradient(
@@ -18,8 +19,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --cor-primaria: rgb(0, 158, 158);
-    --cor-primaria-escura: rgb(0, 92, 95);
+    --cor-primaria: #D3E97A;
+    --cor-primaria-escura: #818f4c;
     --fundo-1: #111111;
     --fundo-2: rgba(0, 225, 255, 0.089);
     --texto: #ffffff;

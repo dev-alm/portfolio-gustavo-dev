@@ -23,7 +23,7 @@
 
 .introducao-itens p {
   color: var(--texto3);
-  max-width: 65ch;
+  max-width: 60ch;
   line-height: 27px;
   font-size: 1, 125rem;
 }
