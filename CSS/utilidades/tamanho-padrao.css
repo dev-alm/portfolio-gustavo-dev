@@ -2,6 +2,11 @@
   background-color: black;
 } */
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .t-padrao {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,6 +28,14 @@
   font-size: 6.3125rem;
   color: var(--texto);
   font-family: "bebas-neue";
+}
+
+h2, ul {
+  color: var(--texto);
+}
+
+p {
+  color: var(--texto3);
 }
 
 /* .projetos-item img {

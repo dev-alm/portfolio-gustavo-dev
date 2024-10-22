@@ -79,15 +79,6 @@ main {
   fill: var(--cor-primaria-escura);
 }
 
-.projetos,
-h2 {
-  color: var(--texto);
-}
-
-.projetos p {
-  color: var(--texto3);
-}
-
 .projetos-item {
   display: flex;
   justify-content: center;
@@ -115,6 +106,17 @@ h2 {
   object-fit: cover;
   border: 4px solid rgb(0, 0, 0);
   border-radius: 20px;
+}
+
+li .projetos-fixo:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  border: solid 0px var(--texto);
+  border-radius: 2px;
+  background-color: var(--texto);
+  margin-top: 4px;
 }
 
 @media (max-width: 850px) {
@@ -184,7 +186,6 @@ h2 {
 }
 
 @media (max-width: 505px) {
-  
 }
 
 @media (max-width: 425px) {
@@ -198,8 +199,4 @@ h2 {
   .projetos li {
     font-size: 0.858rem;
   }
-}
-
-.testee {
-  height: 500px;
 }

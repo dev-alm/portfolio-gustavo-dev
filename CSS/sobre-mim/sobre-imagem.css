@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  padding: 100px 80px 50px 120px;
+  border-bottom: 1px solid var(--borda);
+}
+
+.sobre-imagem img {
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(40% at 50% 50%);
+  position: relative;
+  bottom: 40px;
+  left: 40px;
+}
+
+.sobre-descricao {
+  display: grid;
+  gap: 10px;
+}
+
+.sobre-links {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px 40px 0;
+  gap: 20px;
+}
+
+ul .sobre-botao {
+  display: flex;
+  color: var(--texto2);
+  background-color: var(--borda);
+  padding: 15px 20px 15px 20px;
+  border: 1px solid var(--borda);
+  border-radius: 30px;
+  font-weight: 700;
+  gap: 20px;
+}
+
+

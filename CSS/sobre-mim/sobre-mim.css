@@ -1,0 +1,18 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0px;
+  padding: 100px 80px 50px 120px;
+  border-bottom: 1px solid var(--borda);
+  /* padding-bottom: 100px; */
+}
+
+.sobre-mim {
+  display: grid;
+  gap: 20px;
+}
+
+.sobre-mim h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
