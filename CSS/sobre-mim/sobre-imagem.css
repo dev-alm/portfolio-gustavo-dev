@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px;
-  padding: 100px 80px 50px 120px;
+  padding: 100px 80px 50px 20px;
   border-bottom: 1px solid var(--borda);
 }
 
@@ -23,19 +23,36 @@
 .sobre-links {
   display: flex;
   align-items: center;
-  padding: 40px 0px 40px 0;
+  padding: 40px 0px 40px 45px;
+  gap: 20px;
+}
+
+ul .sobre-botao a {
+  display: flex;
   gap: 20px;
 }
 
 ul .sobre-botao {
   display: flex;
-  color: var(--texto2);
   background-color: var(--borda);
   padding: 15px 20px 15px 20px;
   border: 1px solid var(--borda);
   border-radius: 30px;
   font-weight: 700;
   gap: 20px;
+  position: relative;
+  top: -2px;
+}
+
+ul .sobre-botao a {
+  color: var(--texto2);
+}
+
+ul .sobre-botao:hover  {
+  background-color: var(--cor-primaria-escura);
+}
+a:hover svg path {
+  fill: var(--cor-primaria-escura);
 }
 
 
