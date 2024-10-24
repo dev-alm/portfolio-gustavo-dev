@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: black;
-}
+} */
 
 img {
   display: block;
@@ -48,15 +48,6 @@ p {
   color: var(--texto3);
 }
 
-/* .projetos-item img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 20px;
-} */
-
 h2,
 p,
 ul,
@@ -70,4 +61,14 @@ li {
 
 header a {
   font-family: "inter", Arial, Helvetica, sans-serif;
+}
+
+
+
+.h2-form {
+  font-size: 0.5rem;
+}
+
+label {
+  color: white;
 }
