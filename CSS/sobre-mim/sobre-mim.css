@@ -31,13 +31,19 @@
 }
 
 .sobre-lista li {
-  display: grid;
-  justify-content: center;
-  width: 200px;
-  color: var(--texto2);
-  background-color: var(--borda);
-  padding: 15px 20px 15px 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 60px;
+  width: 250px;
+  color: var(--borda);
+  /* background-color: var(--borda); */
+  padding: 10px 20px 10px 20px;
   border: 1px solid var(--borda);
   border-radius: 30px;
   font-weight: 700;
+}
+
+.sobre-lista li:nth-child(3) {
+  padding: 4.5px 20px;
 }

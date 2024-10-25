@@ -37,5 +37,5 @@
 .experiencia-lista li:nth-child(3) {
   font-size: 1.125rem;
   color: var(--texto3);
-max-width: 64ch;
+  max-width: 64ch;
 }
