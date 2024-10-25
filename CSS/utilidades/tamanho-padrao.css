@@ -1,6 +1,6 @@
-/* body {
+body {
   background-color: black;
-} */
+}
 
 img {
   display: block;
@@ -62,8 +62,6 @@ li {
 header a {
   font-family: "inter", Arial, Helvetica, sans-serif;
 }
-
-
 
 .h2-form {
   font-size: 0.5rem;
