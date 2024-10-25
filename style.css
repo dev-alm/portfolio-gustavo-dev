@@ -14,10 +14,10 @@
 @import url(./CSS/header/header.css);
 
 /*Introdução*/
-@import url(./CSS/introducao/introducao.css);
+@import url(./CSS/projetos/introducao.css);
 
 /*Projetos*/
-@import url(./CSS/main/projetos.css);
+@import url(./CSS/projetos/projetos.css);
 
 /*Sobre Mim*/
 @import url(./CSS/sobre-mim/sobre-imagem.css);
@@ -25,4 +25,4 @@
 @import url(./CSS/sobre-mim/experiencia.css);
 
 
-@import url(./formulario.css);
+@import url(./contato/formulario.css);
