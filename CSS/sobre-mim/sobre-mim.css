@@ -30,14 +30,17 @@
   right: 40px;
 }
 
+.sobre-lista svg, .sobre-lista span {
+  position: relative;
+  left: 55px;
+}
+
 .sobre-lista li {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  gap: 60px;
+  gap: 15px;
   width: 250px;
   color: var(--borda);
-  /* background-color: var(--borda); */
   padding: 10px 20px 10px 20px;
   border: 1px solid var(--borda);
   border-radius: 30px;

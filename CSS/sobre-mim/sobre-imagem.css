@@ -1,15 +1,15 @@
-.container {
+.introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px;
-  padding: 100px 80px 50px 20px;
+  padding: 100px 20px 50px 20px;
   border-bottom: 1px solid var(--borda);
 }
 
 .sobre-imagem img {
   height: 100%;
   object-fit: cover;
-  clip-path: circle(40% at 50% 50%);
+  clip-path: circle(39% at 50% 50%);
   position: relative;
   bottom: 40px;
   left: 40px;
@@ -48,11 +48,67 @@ ul .sobre-botao a {
   color: var(--texto2);
 }
 
-ul .sobre-botao:hover  {
+ul .sobre-botao:hover {
   background-color: var(--cor-primaria-escura);
 }
 a:hover svg path {
   fill: var(--cor-primaria-escura);
 }
 
+@media (max-width: 1000px) {
+  .sobre-descricao h1 {
+    font-size: 4rem;
+  }
+  .sobre-links a .ponto {
+    display: none;
+  }
+  .sobre-links a span {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 890px) {
+  .sobre-botao {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 50px;
+  }
+ul .sobre-botao {
+  padding: 10px 10px 10px 10px;
+}
+  .sobre-links {
+    padding: 40px 0px 60px 0px;
+  }
+  .sobre-descricao {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .sobre-imagem img {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    clip-path: polygon(50% 16%, 75% 43%, 69% 90%, 32% 89%, 25% 43%);
+    left: 0;
+  }
+  .sobre-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px){
+  .sobre-descricao h1 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+}
 
