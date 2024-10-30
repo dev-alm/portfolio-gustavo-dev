@@ -24,5 +24,8 @@
 @import url(./CSS/sobre-mim/sobre-mim.css);
 @import url(./CSS/sobre-mim/experiencia.css);
 
-
+/*Formulário*/
 @import url(./contato/formulario.css);
+
+/*Animação*/
+@import url(./CSS/animacao/animacao.css);
