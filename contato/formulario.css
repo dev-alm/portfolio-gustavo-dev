@@ -13,14 +13,13 @@ li .contato-fixo:after {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  padding: 100px 0 100px 0;
+  padding: 100px 20px 100px 20px;
   border-bottom: 1px solid var(--borda);
 }
 
 .form-container {
   width: 500px;
   /* background-color: #1a1a1a; */
-  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -82,3 +81,35 @@ button:hover {
   display: flex;
   gap:20px;
 }
+
+@media (max-width:950px) {
+  .formulario-container {
+    grid-template-columns: 1fr;
+  }
+  .form-conteudo {
+    text-align: center;
+  }
+  .form-conteudo h1 {
+    font-size: 4rem;
+  }
+  .form-lista {
+    justify-content: center;
+  }
+}
+@media (max-width:450px) {
+  .form-container {
+    width: 300px; 
+  }
+}
+@media (max-width: 375px) {
+  .form-conteudo h1 {
+    font-size: 2.5rem;
+  }
+  .formulario-container {
+    padding-top: 40px;
+  }
+  .form-conteudo {
+    gap: 15px;
+  }
+}
+
