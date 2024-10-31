@@ -82,6 +82,7 @@ a:hover svg path {
   .introducao {
     display: grid;
     grid-template-columns: 1fr;
+    place-content: center;
     padding-top: 50px;
   }
   ul .sobre-botao {

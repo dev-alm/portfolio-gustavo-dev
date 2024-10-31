@@ -160,6 +160,12 @@ li .projetos-fixo:after {
   }
 }
 
+@media (max-width: 800px) {
+  li .projetos-fixo:after {
+    display: none;
+  }
+}
+
 @media (max-width: 788px) {
   .projetos {
     padding-bottom: 270px;

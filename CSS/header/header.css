@@ -22,7 +22,7 @@ header {
   display: block;
   height: 3px;
   width: 0px;
-  border: solid 0px var(--texto);
+  border: solid 0px var(--texto2);
   border-radius: 2px;
   background-color: var(--texto);
   margin-top: 4px;
@@ -38,24 +38,17 @@ header {
     gap: 30px;
   }
   .menu a {
+    color: var(--texto2);
     background: var(--cor-primaria);
-    padding: 5px 5px 5px 5px;
-    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
   }
-  .menu a:hover {
-    background: var(--cor-primaria-escura);
-  }
-  .menu a::after {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .menu a::after {
+  .menu a:after {
     display: none;
   }
 }
 @media (max-width: 266px) {
   .menu a {
-    font-size: 0.800rem;
+    font-size: 0.8rem;
   }
 }
