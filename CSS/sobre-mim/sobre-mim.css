@@ -16,6 +16,7 @@
 
 .sobre-mim {
   display: grid;
+  padding-left: 0;
   place-content: center;
   gap: 20px;
 }
@@ -80,7 +81,7 @@
   }
   .sobre-mim {
     text-align: center;
-    padding: 0 0 0 20px;
+    padding: 0;
   }
 }
 
