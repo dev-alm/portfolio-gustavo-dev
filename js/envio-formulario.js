@@ -1,5 +1,5 @@
 // Inicialize o EmailJS com sua chave pública
-emailjs.init("BAupp9SBy6Ix81LkC");
+emailjs.init("fbhIuNlMOMTXb0ecr");
 
 // Função de envio do formulário
 document
@@ -15,7 +15,7 @@ document
     };
 
     // Use seu Service ID e Template ID
-    emailjs.send("service_md0183w", "template_tcxb90e", params).then(
+    emailjs.send("service_7x49c52", "template_9pmfh0h", params).then(
       function (response) {
         alert("Email enviado com sucesso!", response.status, response.text);
       },
