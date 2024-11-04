@@ -1,5 +1,5 @@
 // Inicialize o EmailJS com sua chave pública
-emailjs.init("NRW4rLtQg12U5UFTQ");
+emailjs.init("BAupp9SBy6Ix81LkC");
 
 // Função de envio do formulário
 document

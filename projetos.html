@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos</title>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -213,7 +214,7 @@
       </ul>
     </div>
     <div class="t-padrao form-container">
-      <form action="#" method="post">
+      <form action="#" method="post" id="contact-form">
         <label for="name">Seu nome</label>
         <input type="text" id="name" name="name" placeholder="Digite seu nome">
 
@@ -230,9 +231,9 @@
       </form>
     </div>
   </div>
+  <script src="./js/envio-formulario.js"></script>
   <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
-  <script src="./js/envio-formulario.js"></script>
 </body>
 
 </html>
