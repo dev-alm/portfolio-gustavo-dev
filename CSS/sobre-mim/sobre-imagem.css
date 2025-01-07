@@ -26,7 +26,7 @@
 .sobre-links {
   display: flex;
   align-items: center;
-  padding: 40px 0px 40px 45px;
+  padding: 40px 0px 40px 0px;
   gap: 20px;
 }
 
